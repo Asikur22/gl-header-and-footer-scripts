@@ -1,0 +1,16 @@
+.CodeMirror {
+	border: 1px solid #ddd;
+}
+
+.glhfs-all-post-type {
+	display: flex;
+	flex-wrap: wrap;
+	
+	& > label {
+		margin: 5px 0;
+		
+		&:not(:first-child) {
+			margin-left: 50px;
+		}
+	}
+}
